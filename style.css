@@ -7,18 +7,20 @@ body{
 
 .header{
     background-color: yellow;
-    padding: 80px;
     text-align: center;
+    padding: 80px;
 
 }
 .div{
-    display: flexbox;
+    display: box;
     background-color: green;
+    height: 50px;
     padding: 1%;
     text-align: center;
 }
 .div1{
+    columns: 2;
     display: flexbox;
     background-color: white;
-    width: 50px 50px;
+    
 }
