@@ -9,9 +9,12 @@ head {
   margin: 2px;
 }
 .figure {
-  text-align: right;
+  justify-content: center;
   padding: 1%;
-  image-rendering: auto;
+}
+img {
+  size: 30px;
+  border-radius: 50%;
 }
 .header {
   text-align: center;
@@ -47,13 +50,22 @@ head {
   right: 30px;
   padding: 30px 5px;
 }
-@media (min-width: 450px) {
+@media (min-width: 300px) and (max-width: 700px) {
   .section {
-    columns: 2;
+    columns: 100%;
   }
 }
 @media (min-width: 700px) {
   .section {
     columns: 3;
+  }
+}
+@media (min-width: 200px) and (max-width: 635px) {
+  .header body {
+    text-align: center;
+    display: block;
+    margin: 2%;
+    padding: 2%;
+    padding: 0;
   }
 }
