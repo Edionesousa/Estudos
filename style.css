@@ -37,6 +37,7 @@ img {
 .section {
   display: flexbox;
   background-color: rgba(0, 0, 0, 0.205);
+  width: 100%;
   margin: 3px;
   padding: 3px;
   align-items: center;
