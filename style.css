@@ -18,6 +18,10 @@ h2 h3 {
   color: whitesmoke;
   padding: 1%;
 }
+p {
+  font-size: 1em;
+  padding: 3%;
+}
 .figure {
   display: contents;
   width: 50%;
@@ -36,7 +40,9 @@ h2 h3 {
 }
 .navBar {
   display: flexbox;
+  color: whitesmoke;
   margin: 1%;
+  padding: 1%;
   text-align: center;
   background-color: green;
 }
