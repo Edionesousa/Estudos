@@ -10,13 +10,13 @@ head {
   height: 100%;
   margin: 2px;
 }
-h1{
-    color: rgb(82, 126, 17)"
+h1 {
+  color: rgb(82, 126, 17);
 }
-h2{
-    background-color: rgb(67, 173, 67) ;
-    color: whitesmoke;
-    padding: 1%;
+h2 h3 {
+  background-color: rgb(67, 173, 67);
+  color: whitesmoke;
+  padding: 1%;
 }
 .figure {
   display: contents;
