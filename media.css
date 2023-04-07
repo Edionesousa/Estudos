@@ -1,0 +1,19 @@
+@media (min-width: 300px) and (max-width: 700px) {
+  .section {
+    columns: 100%;
+    margin: 2%;
+    padding: 2%;
+    padding: 0;
+  }
+}
+@media (min-width: 700px) {
+  .section {
+    columns: 3;
+  }
+}
+@media (min-width: 200px) and (max-width: 900px) {
+  .header body {
+    columns: 2;
+    display: block;
+  }
+}
