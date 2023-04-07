@@ -56,12 +56,11 @@ p {
   display: flexbox;
 }
 .section {
-  background-color: rgba(0, 0, 0, 0.205);
   width: 100%;
+  width: auto;
   margin: 3px;
   padding: 3px;
   align-items: center;
-  width: auto;
 }
 .footer {
   background-color: rgba(255, 255, 0, 0.452);
