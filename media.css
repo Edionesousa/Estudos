@@ -1,4 +1,4 @@
-@media (min-width: 300px) and (max-width: 700px) {
+@media (max-width: 300px) and (min-width: 700px) {
   .section {
     columns: 100%;
     margin: 2%;
@@ -6,13 +6,9 @@
     padding: 0;
   }
 }
-@media (max-width: 400px) {
-  .body {
-    display: inline;
-  }
-}
-@media (min-width: 401) {
-  .section {
+@media (min-width: 700px) {
+  .telas {
+    display: flex;
     columns: 2;
   }
 }
