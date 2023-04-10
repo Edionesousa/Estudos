@@ -6,15 +6,13 @@
     padding: 0;
   }
 }
-
-@media (min-width: 200px) and (max-width: 900px) {
-  .header body {
-    columns: 2;
-    display: block;
+@media (max-width: 400px) {
+  .body {
+    display: inline;
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 401) {
   .section {
-    columns: 3;
+    columns: 2;
   }
 }
