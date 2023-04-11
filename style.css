@@ -10,11 +10,15 @@ head {
   height: 100%;
   margin: 2px;
 }
+
+element.style {
+  max-width: 101%;
+}
 h1 {
   color: rgb(82, 126, 17);
 }
 h2 h3 {
-    color: whitesmoke;
+  color: whitesmoke;
   background-color: rgb(67, 173, 67);
   padding: 1%;
 }
@@ -34,9 +38,8 @@ p {
   margin: 5%;
   border-radius: 50%;
 }
-header{
-    background-color: rgb(194, 202, 202);
-
+header {
+  background-color: rgb(194, 202, 202);
 }
 .header {
   text-align: center;
@@ -51,8 +54,9 @@ header{
   text-align: center;
   background-color: rgba(0, 128, 0, 0.753);
 }
-#background-color{
+#background-color {
   z-index: 1;
+  margin-top: 1px;
   background-color: rgba(255, 0, 0, 0.808);
   border-radius: 0px 10px 0px 10px;
 }
@@ -106,22 +110,24 @@ button {
   padding: 2%;
   width: 100%;
   height: 80%;
-  min-width: auto auto
-    "
+  min-width: auto auto;
 }
-#embed-video-container{
-    display: flexbox;
-    position: relative;
-    background-size: cover;
-    padding: 2%;
-    width:100%; 
-    height: 80%;
-    min-width: auto auto;
+blockquote iframe {
+  margin: 0;
+  padding: 0;
+}
+#embed-video-container {
+  display: flexbox;
+  position: relative;
+  background-size: cover;
+  padding: 2%;
+  width: 100%;
+  height: 80%;
+  min-width: auto auto;
 }
 @media (min-width: 401) {
-    #background-color{
+  #background-color {
     position: fixed;
     z-index: 1;
-    }
+  }
 }
-     
