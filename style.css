@@ -6,25 +6,29 @@
 html,
 body,
 head {
-  width: 100%;
-  height: 100%;
+  width: 50vhvh;
+  height: 100vh;
   margin: 2px;
 }
-
 element.style {
   max-width: 101%;
 }
 h1 {
+  display: flexbox;
   color: rgb(82, 126, 17);
+  text-shadow: 0px 0px 19px 28px;
 }
 h2 h3 {
+  display: flexbox;
   color: whitesmoke;
   background-color: rgb(67, 173, 67);
+  margin: 3px;
   padding: 1%;
 }
 p {
+  margin: 0;
+  padding: 0;
   font-size: 1em;
-  padding: 3%;
   z-index: 1;
 }
 .figure {
@@ -48,11 +52,11 @@ header {
   box-sizing: border-box;
 }
 .navBar {
-  display: flexbox;
+  display: flex;
+  justify-content: center;
   color: whitesmoke;
-  margin: 1%;
-  padding: 1%;
-  text-align: center;
+  margin: 2px;
+  padding: 2px;
   background-color: rgba(0, 128, 0, 0.753);
 }
 #background-color {
@@ -64,8 +68,8 @@ header {
 .div {
   display: flex;
   width: 100%;
-  padding: 3%;
-  padding: 3%;
+  padding: 2px;
+  padding: 2px;
   text-align: center;
 }
 .div1 {
@@ -74,22 +78,21 @@ header {
 .section {
   width: 100%;
   width: auto;
-  margin: 3px;
-  padding: 3px;
+  margin: 2px;
+  padding: 2px;
   align-items: center;
 }
 .footer {
+  display: flexbox;
   background-color: rgba(255, 255, 0, 0.452);
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  gap: 1px;
   text-align: center;
   width: 100%;
   right: 30px;
   padding: 30px 5px;
 }
 button {
+  flex-direction: column;
+  columns: 2;
   border-radius: 4px;
 }
 
