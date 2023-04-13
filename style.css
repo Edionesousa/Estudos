@@ -53,7 +53,6 @@ header {
 }
 .navBar {
   display: flex;
-  justify-content: center;
   color: whitesmoke;
   margin: 2px;
   padding: 2px;
@@ -67,6 +66,7 @@ header {
 }
 .div {
   display: flex;
+  justify-content: space-around;
   width: 100%;
   padding: 2px;
   padding: 2px;
@@ -77,22 +77,17 @@ header {
 }
 .section {
   width: 100%;
-  width: auto;
   margin: 2px;
   padding: 2px;
   align-items: center;
 }
 .footer {
-  display: flexbox;
-  background-color: rgba(255, 255, 0, 0.452);
+  display: block;
   text-align: center;
-  width: 100%;
-  right: 30px;
-  padding: 30px 5px;
+  background-color: rgba(255, 255, 0, 0.452);
+  padding: 10px;
 }
 button {
-  flex-direction: column;
-  columns: 2;
   border-radius: 4px;
 }
 
@@ -112,10 +107,6 @@ button {
   height: 80%;
   min-width: auto auto;
 }
-blockquote iframe {
-  margin: 0;
-  padding: 0;
-}
 #embed-video-container {
   display: flexbox;
   position: relative;
@@ -124,10 +115,4 @@ blockquote iframe {
   width: 100%;
   height: 80%;
   min-width: auto auto;
-}
-@media (min-width: 401) {
-  #background-color {
-    position: fixed;
-    z-index: 1;
-  }
 }
