@@ -29,6 +29,7 @@ p {
 }
 .figure {
   display: contents;
+  flex-shrink: 1;
   width: 50%;
   justify-content: center;
   padding: 1%;
@@ -92,10 +93,6 @@ button {
   border-radius: 4px;
 }
 
-.telas {
-  display: contents;
-  align-items: center;
-}
 .css-wat787 {
   background: rgba(0, 0, 0, 0.9);
   width: 100%;
